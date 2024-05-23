@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T5 Food</title>
+    <link href="assets/img/logo/webLogo.png" rel="icon" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/CSS/general.css" />
+    <link rel="stylesheet" href="assets/CSS/footer.css" />
+    <link rel="stylesheet" href="assets/CSS/home-reponsive.css" />
+    <link rel="stylesheet" href="assets/CSS/header.css" />
+    <link rel="stylesheet" href="assets/CSS/sign-login.css" />
+    <link rel="stylesheet" href="./assets/CSS/toast-message.css">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-pro-v6-6.2.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div onclick="window.location.href='./index.html'" class="header-left">
+                <img class="website-logo" src="assets/img/logo/webLogo.png" />
+                <div class="website-name">T5 Foot</div>
+            </div>
+            <div class="sign-login-title">Đăng Nhập</div>
+        </div>
+
+    </header>
+
+    <div class="modal signup-login">
+        <div class="modal-container">
+            <div class="form-content">
+                <h2 class="logo">T5</h2>
+                <div class="text-sci">
+                    <h2>Welcome!<br>
+                        <span>To Our New Website.</span>
+                    </h2>
+
+                    <p class="form-description">Đăng nhập thành viên để mua hàng và nhận những ưu đãi đặc biệt từ chúng tôi</p>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="logreg-box">
+                <div class="form-box">
+                    <form action="" class="login-form">
+                        <h3 class="form-title">Đăng nhập tài khoản</h3>
+                        <div class="form-group">
+                            <span class="icon"><i class="fa-regular fa-phone"></i></span>
+                            <input id="phone-login" name="phone" type="text" class="form-control" required>
+                            <label for="phone" class="form-label">Số điện thoại</label>
+                            <span class="form-message phonelog"></span>
+                        </div>
+                        <div class="form-group">
+                            <span class="icon"><i class="fa-regular fa-lock"></i></span>
+                            <input id="password-login" name="password" type="password" class="form-control" required>
+                            <label for="password" class="form-label">Mật khẩu</label>
+                            <span class="form-message-check-login form-message"></span>
+                        </div>
+                        <div class="remember-forgot"><label><input type="checkbox"> Remeber me </label></div>
+                        <button class="form-submit" id="login-button">Đăng nhập</button>
+                        <p class="change-login">Bạn chưa có tài khoản ? <a href="javascript:;" class="signup-link">Đăng
+                                kí
+                                ngay</a></p>
+                    </form>
+                </div>
+                <div class="form-box">
+                    <form action="" class="sign-up-form">
+                        <h3 class="form-title">
+                            Đăng ký tài khoản
+                        </h3>
+                        <div class="form-group">
+                            <span class="icon"><i class="fa-regular fa-user"></i></span>
+                            <input id="fullname" name="fullname" type="text" class="form-control" required>
+                            <label for="fullname" class="form-label">Tên đầy đủ</label>
+                            <span class="form-message-name form-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <span class="icon"><i class="fa-regular fa-phone"></i></span>
+                            <input id="phone" name="phone" type="text" class="form-control" required>
+                            <label for="phone" class="form-label">Số điện thoại</label>
+                            <span class="form-message-phone form-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <span class="icon"><i class="fa-regular fa-lock"></i></span>
+                            <input id="password" name="password" type="password" class="form-control" required>
+                            <label for="password" class="form-label">Mật khẩu</label>
+                            <span class="form-message-password form-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <span class="icon"><i class="fa-regular fa-lock"></i></span>
+                            <input id="password_confirmation" name="password_confirmation" type="password" class="form-control" required>
+                            <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                            <span class="form-message-password-confi form-message"></span>
+                        </div>
+                        <div class="remember-forgot"><label for="checkbox-signup" class="form-checkbox">
+                            <input class="checkbox" name="checkbox" required="" type="checkbox" id="checkbox-signup">
+                            Tôi đồng ý với 
+                            <a href="#" title="chính sách trang web" target="_blank"> Chính sách trang web</a>
+                        </label>
+                        </div>
+                        <p class="form-message-checkbox form-message"></p>
+                        <button class="form-submit" id="signup-button">Đăng ký</button>
+                        <p class="change-login">Bạn đã có tài khoản ? <a href="javascript:;" class="login-link">Đăng nhập
+                            ngay</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="widget-area">
+            <div class="container">
+                <div class="widget-row">
+                    <div class="widget-row-col-1">
+                        <h3 class="widget-title">Về chúng tôi</h3>
+                        <div class="widget-row-col-content">
+                            <p>T5 Food là thương hiệu được thành lập vào năm 2023 với tiêu chí đặt chất lượng sản phẩm lên hàng đầu.
+                            </p>
+                        </div>
+                        <div class="widget-social">
+                            <div class="widget-social-item">
+                                <a href="">
+                                    <i class='bx bxl-facebook'></i>
+                                </a>
+                            </div>
+                            <div class="widget-social-item">
+                                <a href="">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </div>
+                            <div class="widget-social-item">
+                                <a href="">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                            </div>
+                            <div class="widget-social-item">
+                                <a href="">
+                                    <i class='bx bxl-whatsapp'></i></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-row-col">
+                        <h3 class="widget-title">Liên kết</h3>
+                        <ul class="widget-contact">
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Về chúng tôi</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Thực đơn</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Điều khoản</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Liên hệ</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Tin tức</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-row-col">
+                        <h3 class="widget-title">Thực đơn</h3>
+                        <ul class="widget-contact">
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Điểm tâm</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Món chay</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Món mặn</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Nước uống</span>
+                                </a>
+                            </li>
+                            <li class="widget-contact-item">
+                                <a href="">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                    <span>Tráng miệng</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-row-col-1">
+                        <h3 class="widget-title">Liên hệ</h3>
+                        <div class="contact">
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <i class="fa-regular fa-location-dot"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <span>273 An Dương Vương, Phường 3, Quận 5, TP Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <i class="fa-regular fa-phone"></i>
+                                </div>
+                                <div class="contact-content contact-item-phone">
+                                    <span>0123 456 789</span>
+                                    <br>
+                                    <span>0987 654 321</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="contact-content conatct-item-email">
+                                    <span>abc@domain.com</span><br />
+                                    <span>infoabc@domain.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-wrap">
+        <div class="container">
+            <div class="copyright-content">
+                <p>Copyright 2023 T5 Food. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <div id="toast"></div>
+    <script src="./js/signUpLogin.js"></script>
+    <script src="./js/toast-message.js"></script>
+    <script src="./js/initialization.js"></script>
+</body>
+
+</html>
