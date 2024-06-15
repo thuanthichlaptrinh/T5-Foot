@@ -1,0 +1,293 @@
+/*---------------------- Responsive -----------------------*/
+/* mobile */
+@media (max-width: 739px) {
+    /* body {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    } */
+    .sign-login-title {
+        margin-right: 31px;
+    }
+    .website-name {
+        display: none;
+    }
+
+    .advanced-search {
+        display: none;
+    }
+
+    .header {
+        width: 100% !important;
+    }
+
+    .header-bottom {
+        width: 100% !important;
+    }
+    .menu-list {
+        width: 90%;
+    }
+
+    .main-menu {
+        /* margin-left: 24px !important; */
+        /* margin-right: auto !important; */
+    }
+
+    .m-mobile {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main-wrapper {
+        margin-left: 16px !important;
+    }
+
+    .menu-list {
+        width: 99%;
+    }
+
+    .main-menu {
+        margin-left: 20px !important;
+    }
+
+    /* ẩn thanh search trên mobile */
+    .form-search-input {
+        display: none;
+    }
+
+    .filter-btn {
+        border-top-left-radius: 50px !important;
+        border-bottom-left-radius: 50px !important;
+        border-top-right-radius: 50px !important;
+        border-bottom-right-radius: 50px !important;
+    }
+
+    .right-section {
+        margin-right: -44px !important;
+        justify-content: center !important;
+    }
+
+    .header-middle-right-item-open span {
+        display: none !important;
+    }
+
+    .footer {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    .product-title {
+        width: 90%;
+        padding-left: 16px !important;
+    }
+
+    .product-preview {
+        height: 360px !important;
+    }
+
+    .order-button {
+        margin-top: 12px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .toast {
+        margin-right: -90px !important;
+    }
+
+    /* cart  */
+    .cart-container {
+        height: 500px !important;
+        margin-right: 14px !important;
+        width: 380px !important;
+    }
+
+    /* detail */
+    .detail {
+        display: flex !important;
+        flex-direction: column; /* Đặt hình ảnh phía trên và nội dung phía dưới */
+        align-items: center;
+        text-align: center;
+        gap: 20px; /* Tạo khoảng cách giữa các phần tử */
+    }
+
+    .detail .image {
+        width: 100% !important;
+        max-width: 300px; /* Đảm bảo hình ảnh không quá rộng */
+    }
+
+    .detail .image img {
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .detail .content {
+        width: 100% !important;
+        border-left: none !important;
+        margin-left: -20px !important;
+        padding: 0 20px; /* Tạo khoảng cách ngang */
+        box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước phần tử */
+        text-align: center; /* Canh giữa văn bản */
+    }
+
+    .detail .name {
+        font-size: xx-large;
+        margin: 0 0 10px 14px !important;
+        color: rgb(122, 14, 14);
+        text-align: center;
+    }
+
+    .detail .price {
+        font-weight: bold;
+        font-size: x-large;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .detail .description {
+        margin-top: 20px;
+        color: rgb(131, 125, 119);
+        font-size: medium;
+        font-weight: 450;
+        margin-bottom: 30px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 3px solid rgba(122, 14, 14, 0.8);
+        border-bottom: 3px solid rgba(122, 14, 14, 0.8);
+    }
+
+    /* form control */
+    .form-content {
+        display: none !important;
+        width: 0 !important;
+    }
+
+    .modal-container {
+        display: block !important;
+    }
+
+    .logreg-box {
+        width: 360px !important;
+        margin-right: 31px !important;
+        height: 600px !important;
+    }
+
+    .modal {
+        height: 632px !important;
+    }
+
+    .main-account {
+        height: 836px !important;
+    }
+
+    /* .main-account {
+        
+        } */
+
+    .main-account-body-col {
+        padding-left: 30px !important;
+    }
+
+    #save-info-user {
+        margin-left: 8px !important;
+    }
+
+    .order-history-section {
+        box-sizing: border-box;
+    }
+
+    .order-history-group {
+        box-sizing: border-box;
+        margin-bottom: 6px !important;
+    }
+}
+
+/* >= Tablet */
+@media (min-width: 740px) {
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+    .ml-pcm {
+        margin-left: 60px !important;
+    }
+}
+
+/* > PC low resolution (ipad pro) */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    /* khi vào màn hình >= 1024px và <= 1239px thì sẽ apply thuộc tính của class wide */
+    .ml-pcs {
+        margin-left: 60px !important;
+    }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .product-preview {
+        height: 380px !important;
+    }
+
+    .product-title {
+        width: 90%;
+        padding-left: 16px !important;
+    }
+
+    .right-section {
+        justify-content: space-around !important;
+    }
+
+    .header-middle-right-item-open span {
+        display: none;
+    }
+
+    /* ẩn thanh search */
+    .advanced-search {
+        display: none;
+    }
+
+    .main-menu {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mt-4-table {
+        margin-top: 40px;
+    }
+
+    .ml-tablet {
+        margin-left: 60px;
+    }
+
+    .ml-80-tablet {
+        margin-left: 80px;
+    }
+
+    .form-content {
+        width: 360px !important;
+    }
+
+    .form-content {
+        padding-left: 30px !important;
+        padding-right: 10px !important;
+    }
+    .form-description {
+        width: 200px;
+    }
+
+    .logreg-box {
+        width: 380px !important;
+        margin-right: 30px;
+    }
+
+    .right-section {
+        justify-content: space-around !important;
+    }
+
+    .header-middle-right-item {
+        margin-right: -100px;
+    }
+
+    .header-middle-right-item-open {
+        margin-right: -30px;
+    }
+}
