@@ -1,11 +1,5 @@
 # Đồ án môn thiết kế web
 
-### Thành viên nhóm:
-
-- Hồ Đức Hoàng Quân
-- Lê Văn Thành
-- Ngô Minh Thuận
-
 ### Demo
 
 ### Link page
