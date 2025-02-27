@@ -3,10 +3,10 @@
 ### Demo
 
 ### Link page
-
 https://thuanthichlaptrinh.github.io/T5-Foot/
 
-### Link page Admin
+### Link page Admin:  
+https://thuanthichlaptrinh.github.io/T5-Foot/admin
 
 ### Hình ảnh giao diện
 
